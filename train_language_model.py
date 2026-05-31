@@ -21,7 +21,7 @@ import os
 
 # ── Config ────────────────────────────────────────────────────────────────────
 BACKBONE    = "vinai/phobert-base"   # PhoBERT tiếng Việt
-DATA_FILE = /content/drive/MyDrive/Language to motion/Dataset tự làm/label_full.csv
+DATA_FILE = "/content/drive/MyDrive/Language to motion/Dataset tự làm/label_full.csv"
 SAVE_DIR    = "capsule_language_model"
 MAX_LEN     = 64
 BATCH_SIZE  = 16
