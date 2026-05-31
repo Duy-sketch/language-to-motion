@@ -21,7 +21,7 @@ import os
 
 # ── Config ────────────────────────────────────────────────────────────────────
 BACKBONE    = "vinai/phobert-base"   # PhoBERT tiếng Việt
-DATA_FILE   = "label_template.csv"
+DATA_FILE = "label_full.csv"
 SAVE_DIR    = "capsule_language_model"
 MAX_LEN     = 64
 BATCH_SIZE  = 16
