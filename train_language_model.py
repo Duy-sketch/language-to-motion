@@ -2,7 +2,7 @@
 Train language model: câu lệnh → action vector [Δα, Δβ, ΔX, ΔY, ΔZ]
 
 Cách dùng:
-  1. Điền data vào label_template.csv (càng nhiều càng tốt, tối thiểu ~200 dòng)
+  1. Điền data vào label_full.csv (càng nhiều càng tốt, tối thiểu ~200 dòng)
   2. Chạy: python train_language_model.py
   3. Model được lưu vào: capsule_language_model/
 
